@@ -3,7 +3,7 @@
 A Streamlit app that uses an **open-source LLM via [OpenRouter](https://openrouter.ai/)** to automatically generate human-friendly data dictionaries for CSV files.  
 Built with **free tools** and fully containerized using **Docker**.
 
-![App Screenshot](sample_data/Output_screenshot.png.png)
+![App Screenshot](sample_data/Output_screenshot.png)
 
 ---
 
