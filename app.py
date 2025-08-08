@@ -122,7 +122,7 @@ if uploaded_file is not None:
             if not content:
                 st.warning("No content returned from the model.")
             else:
-                st.markdown("### 🧠 Model Output")
+                st.markdown("### Model Output")
                 st.markdown(content)
                 # simple export
                 st.download_button(

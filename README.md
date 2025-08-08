@@ -30,13 +30,13 @@ Built with **free tools** and fully containerized using **Docker**.
 
 ## Installation & Usage
 
-### 1️⃣ Clone the repo
+### 1. Clone the repo
 ```bash
 git clone https://github.com/melissa-nicholas/llm-data-dictionary.git
 cd llm-data-dictionary
 ```
 
-### 2️⃣ Set up your API key
+### 2️. Set up your API key
 1. Create a free [OpenRouter account](https://openrouter.ai/)
 2. Get your API key from **Settings → API Keys**
 3. Create a `.env` file in the project root:
@@ -44,12 +44,12 @@ cd llm-data-dictionary
 OPENROUTER_API_KEY=sk-xxxxxx
 ```
 
-### 3️⃣ Build the Docker image
+### 3️. Build the Docker image
 ```bash
 docker build -t llm-data-dict .
 ```
 
-### 4️⃣ Run the app
+### 4️. Run the app
 ```bash
 docker run --rm -p 8501:8501 --env-file .env llm-data-dict
 ```
