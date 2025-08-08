@@ -1,0 +1,2 @@
+customer_id,order_id,item,count,total_price,recorded_date,ship_date,subsciption_status
+12443,212,"Mittens, pink",2,$28.91,2025-01-02,2025-02-01,Elite
